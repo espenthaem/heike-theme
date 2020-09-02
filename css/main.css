@@ -1,0 +1,205 @@
+/* Content Menu CSS */
+#content-menu {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 350px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #FFFF; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+#content-menu ul {
+    list-style-type: none;
+    padding-left: 0em; 
+}
+
+#content-menu a{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	padding: 5px 5px 5px 25px;
+}
+
+#content-menu a:hover{
+	color: #C0C0C0;
+  text-decoration: none;
+}
+
+#content-menu a img:hover{
+  opacity: 0.5;
+}
+
+
+/* Heike Header CSS */
+#heike-head {
+  font-size: 35px;
+  font-weight: 900;
+  word-wrap: break-word;
+  text-align-last: left;
+}
+
+#heike-head a {
+  display:block;
+  line-height: 0.95;
+}
+
+/* The navigation menu links */
+.main-nav a {
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800
+}
+
+.sub-nav ul {
+    list-style-type: none;
+}
+
+.sub-nav a {
+	padding: 3px 5px 3px 35px;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+/* General Content Section CSS */
+#content-section {
+	margin-left: 350px; /* Same as the width of the sidebar */
+	width: 60%;
+}
+
+#content-section a {
+	font-weight: 700;
+	color: #000000;
+	font-size: 30px;
+}
+
+#content-section a:hover{
+	color: #C0C0C0;
+	text-decoration: none;
+}
+
+#content-section img {
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+
+#content-section div {
+	border-width: 1px;
+}
+
+/* Works Page Specific CSS */
+.works-page-image {
+  opacity: 1;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}
+
+.works-page-image:hover {
+    opacity: 0.75;
+}
+
+/* Single Content Section CSS */
+.single-image-div img {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.single-video-div {
+  position: relative;
+  padding:56.25% 0 0 0;
+}
+
+.single-video-div iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.image-padding {
+  padding-top: 50px;
+}
+
+.single-text-div {
+	border-left-style: solid;
+	border-right-style: solid;
+  border-bottom-style: solid;
+	border-width: 1px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.single-text-div p {
+	margin-bottom: 0rem;
+}
+
+.single-title-div {
+	border-bottom-style: solid;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+.single-title-div p {
+	font-weight: 700;
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+/* Single Gallery Section CSS */
+
+/* Next & previous buttons */
+.prev .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	float: right;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.gallery-nav-div {
+	display: flex;
+}
+
+.gallery-nav-div div {
+	width: 50%;
+}
+
+/* Exhibition Views Page CSS */
+.views-single-div {
+  width: 50%; 
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.views-row-div{
+  display:flex;
+}
