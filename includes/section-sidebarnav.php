@@ -4,11 +4,11 @@
 
 	<ul>
 		<li class="main-nav">
-			<a href="http://heike.test/news">News</a>
+			<a href="<?php get_site_url();?>/news">News</a>
 		</li>
 
 		<li class="main-nav">
-			<a href="http://heike.test/works">Works</a>
+			<a href="<?php get_site_url();?>/works">Works</a>
 
 				<ul class="sub-nav">
 				
@@ -39,7 +39,7 @@
 		</li>
 
 		<li class="main-nav">
-			<a href="http://heike.test/exhibition-videos">Exhibition Views</a>
+			<a href="<?php get_site_url();?>/exhibition-views">Exhibition Views</a>
 
 				<ul class="sub-nav">
 				
@@ -70,15 +70,15 @@
 		</li>
 
 		<li class="main-nav">
-			<a href="http://heike.test/texts">Texts</a>
+			<a href="<?php get_site_url();?>/texts">Texts</a>
 		</li>
 
 		<li class="main-nav">
-			<a href="http://heike.test/biography">Biography</a>
+			<a href="<?php get_site_url();?>/biography">Biography</a>
 		</li>
 
 		<li class="main-nav">
-			<a href="http://heike.test/contact">Contact</a>
+			<a href="<?php get_site_url();?>/contact">Contact</a>
 		</li>
 	</ul>
 	

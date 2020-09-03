@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Exhibition Videos
+Template Name: Exhibition Views
 */
 ?>
 
