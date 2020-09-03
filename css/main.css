@@ -31,7 +31,6 @@
   opacity: 0.5;
 }
 
-
 /* Heike Header CSS */
 #heike-head {
   font-size: 35px;
@@ -76,7 +75,6 @@
 #content-section a {
 	font-weight: 700;
 	color: #000000;
-	font-size: 30px;
 }
 
 #content-section a:hover{
@@ -202,4 +200,9 @@
 
 .views-row-div{
   display:flex;
+}
+
+/* Texts Page CSS */
+#contact-div a {
+  font-size: 20px;
 }

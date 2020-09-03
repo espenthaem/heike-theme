@@ -11,10 +11,14 @@ Template Name: Contact
 
 <div id="content-section">
 
-	<div style="padding-top:20px;">
-	</div>
+	<div id="contact-div">
 
-	<?php the_content();?>
+		<div style="padding-top:20px;">
+		</div>
+
+		<?php the_content();?>
+
+	</div>
 
 </div>
 

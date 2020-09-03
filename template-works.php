@@ -11,7 +11,8 @@ Template Name: Works
 
 <div id="content-section">
 
-	<div>
+	<div id="works-div">
+		
 		<?php
 		    $args = array(
 		        'post_type' => 'post',
@@ -44,6 +45,7 @@ Template Name: Works
 		        }
 		?>
 		<?php wp_reset_query() ?>
+
 	</div>
 
 </div>

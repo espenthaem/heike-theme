@@ -4,13 +4,13 @@ Template Name: News
 */
 ?>
 
-
 <?php get_header();?>
 
 <?php get_template_part('includes/section','sidebarnav');?>
 
 <div id="content-section">
-
+	
+	<div id="news-div">
 	
 		<?php
 		    $args = array(
@@ -52,7 +52,8 @@ Template Name: News
 		?>
 		<?php wp_reset_query() ?>
 	
-
+	</div>
+	
 </div>
 
 </div></div>
