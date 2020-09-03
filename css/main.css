@@ -68,7 +68,7 @@
 
 /* General Content Section CSS */
 #content-section {
-	margin-left: 350px; /* Same as the width of the sidebar */
+	margin-left: 350px;  /* Same as the width of the sidebar */
 	width: 60%;
 }
 
@@ -90,6 +90,10 @@
 
 #content-section div {
 	border-width: 1px;
+}
+
+#content-section li {
+  list-style: none;
 }
 
 /* Works Page Specific CSS */
@@ -205,4 +209,22 @@
 /* Texts Page CSS */
 #contact-div a {
   font-size: 20px;
+}
+
+/* Responsiveness of the Content menu/section */
+@media screen and (max-width: 1000px) {
+  #content-menu {
+    width: 90%; 
+    padding-right: 5px;
+    height: auto;
+    position: relative;
+  }
+
+  #content-section {
+    width: 90%;
+    margin-left: 0px;
+    padding-left: 5%;
+    padding-right: 5px;
+  }
+
 }

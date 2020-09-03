@@ -11,43 +11,42 @@ Template Name: Works
 
 <div id="content-section">
 
-	<div id="works-div">
-		
-		<?php
-		    $args = array(
-		        'post_type' => 'post',
-		        'order' => 'ASC'
- 		    );
+	<?php
+	    $args = array(
+	        'post_type' => 'post',
+	        'order' => 'ASC',
+	        'category_name' => 'Work'
+		    );
 
-		    $post_query = new WP_Query($args);
+	    $post_query = new WP_Query($args);
 
-		    if($post_query->have_posts() ) {
-		        while($post_query->have_posts() ) {
-		            $post_query->the_post();
-		            ?>
-		         
-		            <li>
-		            	<a href=<?php the_permalink();?>> 
-		            		<img src="<?php the_post_thumbnail_url('full');?>">
-		            	</a>
-		            	<div class=image-padding></div>
+	    if($post_query->have_posts() ) {
+	        while($post_query->have_posts() ) {
+	            $post_query->the_post();
+	            ?>
+	         
+	            <li>
+                    <div class="single-title-div">
+                            <a href=<?php the_permalink();?>><p><?php the_title() ;?></p></a>
+                    </div>
+                    
 
-		            	<a href=<?php the_permalink();?>> 
-		            		<div class="single-title-div">
-		            			<p><?php the_title() ;?></p>
-		            		</div>
-		            	</a>
-		            </li>
+	            	<a href=<?php the_permalink();?>> 
+	            		<img class="works-page-image" src="<?php the_post_thumbnail_url('full');?>">
+	            	</a>
 
-		            <?php
+                    <div class="image-padding">
+                    </div>
 
-		            }
-		        }
-		?>
-		<?php wp_reset_query() ?>
+	            </li>
 
-	</div>
+	            <?php
 
+	            }
+	        }
+	?>
+	<?php wp_reset_query() ?>
+	
 </div>
 
 </div></div>

@@ -1,5 +1,3 @@
-<header>
-
 <div id="content-menu">
 	
 	<div id="heike-head"><a href="http://heike.test">Heike Baranowsky</a></div>
@@ -85,5 +83,3 @@
 	</ul>
 	
 </div>
-
-</header>
