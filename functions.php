@@ -51,3 +51,9 @@ function remove_the_first_gallery( $output, $attr )
 }
 
 add_filter( 'post_gallery', 'remove_the_first_gallery', 10, 2 );
+
+/* Change excerpt length */
+function mytheme_custom_excerpt_length( $length ) {
+    return 30;
+}
+add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );

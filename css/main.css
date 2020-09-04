@@ -145,6 +145,8 @@
 
 .single-text-div p {
 	margin-bottom: 0rem;
+  font-weight: normal;
+  font-size: 15px;
 }
 
 .single-title-div {
@@ -155,7 +157,7 @@
 
 .single-title-div p {
 	font-weight: 700;
-	font-size: 25px;
+	font-size: 15px;
 	margin-bottom: 0;
 }
 

@@ -4,13 +4,12 @@ Template Name: Works
 */
 ?>
 
-
 <?php get_header();?>
 
 <?php get_template_part('includes/section','sidebarnav');?>
 
 <div id="content-section">
-
+	
 	<?php
 	    $args = array(
 	        'post_type' => 'post',
