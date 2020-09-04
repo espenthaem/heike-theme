@@ -71,6 +71,7 @@
   font-family: 'Public Sans', sans-serif;
 	margin-left: 275px;  /* Same as the width of the sidebar */
 	width: 60%;
+  padding-top: 50px;
 }
 
 #content-section a {

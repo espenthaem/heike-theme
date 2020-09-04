@@ -9,9 +9,6 @@ Template Name: Works
 <?php get_template_part('includes/section','sidebarnav');?>
 
 <div id="content-section">
-
-	<div style="padding-top: 50px;">
-    </div>
 	
 	<?php
 	    $args = array(

@@ -4,9 +4,6 @@
 
 <div id="content-section">
 
-	<div style="padding-top: 50px;">
-    </div>
-
 	<div class="single-title-div">
 		<p><?php the_title();?></p>
 	</div>

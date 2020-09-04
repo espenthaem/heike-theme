@@ -4,9 +4,6 @@
 
 <div id="content-section">
 
-	<div style="padding-top:20px;">
-	</div>
-
 	<?php the_content();?>
 
 </div>
