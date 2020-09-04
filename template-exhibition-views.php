@@ -11,6 +11,9 @@ Template Name: Exhibition Views
 
 <div id="content-section">
 
+	<div style="padding-top: 50px;">
+    </div>
+
 	<?php get_template_part('includes/section','exhibitionblocks');?>
 	
 </div>

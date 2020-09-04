@@ -33,8 +33,8 @@ if ($the_query->have_posts()) {
 
 			<a href="<?php the_permalink(); ?>">
 				<div class="single-text-div">
-					<div style="height: 125px; display:block; overflow:hidden;">
-					<?php the_excerpt(5); ?> 
+					<div style="height: auto; display:block;">
+					<?php echo get_excerpt(150); ?> 
 					</div>
 				</div>
 			</a>

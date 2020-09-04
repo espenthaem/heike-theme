@@ -1,14 +1,14 @@
 <div id="content-menu">
 	
-	<div id="heike-head"><a href="http://heike.test">Heike Baranowsky</a></div>
+	<div id="heike-head"><a href="http://heike.test">HEIKE<br> BARANOWSKY</a></div>
 
 	<ul>
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/news">News</a>
+			<a href="<?php get_site_url();?>/news">NEWS</a>
 		</li>
 
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/works">Works</a>
+			<a href="<?php get_site_url();?>/works">WORKS</a>
 
 				<ul class="sub-nav">
 				
@@ -40,7 +40,7 @@
 		</li>
 
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/exhibition-views">Exhibition Views</a>
+			<a href="<?php get_site_url();?>/exhibition-views">EXHIBITION VIEWS</a>
 
 				<ul class="sub-nav">
 				
@@ -72,15 +72,15 @@
 		</li>
 
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/texts">Texts</a>
+			<a href="<?php get_site_url();?>/texts">TEXTS</a>
 		</li>
 
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/biography">Biography</a>
+			<a href="<?php get_site_url();?>/biography">BIOGRAPHY</a>
 		</li>
 
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/contact">Contact</a>
+			<a href="<?php get_site_url();?>/contact">CONTACT</a>
 		</li>
 	</ul>
 	

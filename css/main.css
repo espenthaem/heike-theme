@@ -1,7 +1,7 @@
 /* Content Menu CSS */
 #content-menu {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 350px; /* Set the width of the sidebar */
+  width: 275px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -9,6 +9,7 @@
   background-color: #FFFF; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+  font-family: 'Public Sans', sans-serif;
 }
 
 #content-menu ul {
@@ -16,8 +17,7 @@
     padding-left: 0em; 
 }
 
-#content-menu a{
-	font-family: 'Open Sans', sans-serif;
+#content-menu a {
 	color: #000000;
 	padding: 5px 5px 5px 25px;
 }
@@ -33,8 +33,8 @@
 
 /* Heike Header CSS */
 #heike-head {
-  font-size: 35px;
-  font-weight: 900;
+  font-size: 25px;
+  font-weight: bold;
   word-wrap: break-word;
   text-align-last: left;
 }
@@ -51,7 +51,7 @@
   display: block;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 800
+  font-weight: normal;
 }
 
 .sub-nav ul {
@@ -62,18 +62,19 @@
 	padding: 3px 5px 3px 35px;
 	text-decoration: none;
 	font-size: 15px;
-	font-weight: 700;
+	font-weight: normal;
 	line-height: 1;
 }
 
 /* General Content Section CSS */
 #content-section {
-	margin-left: 350px;  /* Same as the width of the sidebar */
+  font-family: 'Public Sans', sans-serif;
+	margin-left: 275px;  /* Same as the width of the sidebar */
 	width: 60%;
 }
 
 #content-section a {
-	font-weight: 700;
+	font-weight: normal;
 	color: #000000;
 }
 
@@ -201,6 +202,11 @@
   width: 50%; 
   padding-right: 10px;
   padding-left: 10px;
+}
+
+.views-single-div a {
+  font-weight: normal;
+  font-size: 15px;
 }
 
 .views-row-div{
