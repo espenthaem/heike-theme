@@ -15,7 +15,8 @@
 					<?php
 						$args = array(
 						    'post_type' => 'post',
-							'order' => 'ASC',
+						    'order_by' => 'date',
+							'order' => 'DESC',
 							'category_name' => 'Work'
 						 	);
 
@@ -46,7 +47,8 @@
 					<?php
 						$args = array(
 						    'post_type' => 'post',
-							'order' => 'ASC',
+						    'order-by' => 'date',
+							'order' => 'DESC',
 							'category_name' => 'Exhibition Views'
 						 	);
 

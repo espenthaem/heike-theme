@@ -14,7 +14,8 @@ Template Name: Works
 	<?php
 	    $args = array(
 	        'post_type' => 'post',
-	        'order' => 'ASC',
+	        'order-by' => 'date',
+	        'order' => 'DESC',
 	        'category_name' => 'Work'
 		    );
 

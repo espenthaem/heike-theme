@@ -15,6 +15,7 @@ Template Name: News
 		<?php
 		    $args = array(
 		        'post_type' => 'post',
+		        'order-by' => 'date',
 		        'order' => 'DESC',
 		        'category_name' => 'News'
  		    );

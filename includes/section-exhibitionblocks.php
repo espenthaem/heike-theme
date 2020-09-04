@@ -2,7 +2,9 @@
 <?php
 
 $args = array(
-    'category_name'     => 'Exhibition Views'
+    'category_name' => 'Exhibition Views',
+    'order_by' => 'date',
+    'order' => 'DESC'
 );
 
 $the_query = new WP_Query($args);
