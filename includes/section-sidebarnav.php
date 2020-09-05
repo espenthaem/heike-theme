@@ -4,11 +4,11 @@
 
 	<ul>
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/news">NEWS</a>
+			<a href="<?php echo get_site_url();?>/news">NEWS</a>
 		</li>
 
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/works">WORKS</a>
+			<a href="<?php echo get_site_url();?>/works">WORKS</a>
 
 				<ul class="sub-nav">
 				
@@ -40,7 +40,7 @@
 		</li>
 
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/exhibition-views">EXHIBITION VIEWS</a>
+			<a href="<?php echo get_site_url();?>/exhibition-views">EXHIBITION VIEWS</a>
 
 				<ul class="sub-nav">
 				
@@ -72,15 +72,15 @@
 		</li>
 
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/texts">TEXTS</a>
+			<a href="<?php echo get_site_url();?>/texts">TEXTS</a>
 		</li>
 
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/biography">BIOGRAPHY</a>
+			<a href="<?php echo get_site_url();?>/biography">BIOGRAPHY</a>
 		</li>
 
 		<li class="main-nav">
-			<a href="<?php get_site_url();?>/contact">CONTACT</a>
+			<a href="<?php echo get_site_url();?>/contact">CONTACT</a>
 		</li>
 	</ul>
 	
