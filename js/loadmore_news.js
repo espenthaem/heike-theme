@@ -20,7 +20,7 @@ jQuery(function($){ // use jQuery code inside this to avoid "$ is not defined" e
 			},
 			success : function( data ){
 				if( data ) { 
-					button.text( 'More posts' ).prev().after(data); // insert new posts
+					button.text( 'More News' ).prev().after(data); // insert new posts
 					current_page_myajax++;
  
 					if ( current_page_myajax == max_page_myajax )

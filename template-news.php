@@ -38,7 +38,7 @@ Template Name: News
 
 		<!-- Setup for infinite scrolling -->
 		<?php if ($post_query->max_num_pages > 1) { // check if the max number of pages is greater than 1  ?>
-			<button class="loadmore">Load More</button>
+			<button class="loadmore">More News</button>
 		<?php } ?>
 		
 		<script>
