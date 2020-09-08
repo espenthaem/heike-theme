@@ -17,7 +17,8 @@ Template Name: News
 		        'post_type' => 'post',
 		        'order-by' => 'date',
 		        'order' => 'DESC',
-		        'category_name' => 'News'
+		        'category_name' => 'News',
+		        'posts_per_page' => 5
  		    );
 
 		    $post_query = new WP_Query($args);
@@ -27,32 +28,27 @@ Template Name: News
 		            $post_query->the_post();
 		            ?>
 		         
-		            <li>
-
-		            	<div class="single-title-div">
-							<p><?php the_title();?></p>
-						</div>
-
-						<div class="single-text-div">
-							<p><?php the_content();?></p> 
-						</div>
-
-						<div>
-		            		<img src="<?php the_post_thumbnail_url('full');?>">
-		            	</div>	
-
-						<div class="image-padding">
-                        </div>
-
-		            </li>
+		            <?php get_template_part('includes/section','newsblocks');?>
 
 		            <?php
 
 		            }
 		        }
 		?>
-		<?php wp_reset_query() ?>
-	
+
+		<!-- Setup for infinite scrolling -->
+		<?php if ($post_query->max_num_pages > 1) { // check if the max number of pages is greater than 1  ?>
+			<button class="loadmore">Load More</button>
+		<?php } ?>
+		
+		<script>
+			var posts_myajax = '<?php echo json_encode( $post_query->query_vars ) ?>',
+   			current_page_myajax = 1,
+    		max_page_myajax = <?php echo $post_query->max_num_pages ?>
+		</script>
+
+		<?php wp_reset_query();?>
+
 	</div>
 	
 </div>
