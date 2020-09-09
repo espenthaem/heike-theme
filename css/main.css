@@ -76,8 +76,9 @@ body {
 /* General Content Section CSS */
 #content-section {
 	margin-left: 275px;  /* Same as the width of the sidebar */
-	width: 60%;
+	width: 65%;
   padding-top: 100px;
+  padding-left: 25px;
 }
 
 #content-section a {
