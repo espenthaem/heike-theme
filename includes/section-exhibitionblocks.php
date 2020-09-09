@@ -30,7 +30,13 @@ if ($the_query->have_posts()) {
 			</div>
 
 			<div class="single-video-div" style="display:block;">
-				<iframe src="<?php echo get_post_meta(get_the_ID(), 'vimeo-link', true);?>?title=0&byline=0&portrait=0"> </iframe>
+				<?php 
+				if (metadata_exists('post', get_the_ID(), 'vimeo-link')) {
+					?>
+					<iframe src="<?php echo get_post_meta(get_the_ID(), 'vimeo-link', true);?>?title=0&byline=0&portrait=0"> </iframe>
+				<?php
+				}?>
+				
 			</div>
 
 			<a href="<?php the_permalink(); ?>">
