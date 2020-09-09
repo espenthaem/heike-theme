@@ -1,4 +1,10 @@
 /* Content Menu CSS */
+body {
+  background-color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 #content-menu {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 275px; /* Set the width of the sidebar */
@@ -6,20 +12,22 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #FFFF; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
-  font-family: 'Public Sans', sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 2em;
+  font-weight: 700;
+  font-size: 11pt;
 }
 
 #content-menu ul {
-    list-style-type: none;
-    padding-left: 0em; 
+  list-style-type: none;
+  padding-left: 0em; 
 }
 
 #content-menu a {
 	color: #000000;
-	padding: 5px 5px 5px 25px;
+	padding: 5px 5px 2px 25px;
 }
 
 #content-menu a:hover{
@@ -33,25 +41,23 @@
 
 /* Heike Header CSS */
 #heike-head {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 18pt;
+  font-weight: 800;
+  line-height: 1em;
+  letter-spacing: 0.05em;
   word-wrap: break-word;
   text-align-last: left;
 }
 
 #heike-head a {
   display:block;
-  line-height: 0.95;
 }
 
 /* The navigation menu links */
 .main-nav a {
   text-decoration: none;
-  font-size: 15px;
   display: block;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: normal;
+  text-decoration: underline;
 }
 
 .sub-nav ul {
@@ -59,19 +65,19 @@
 }
 
 .sub-nav a {
-	padding: 3px 5px 3px 35px;
 	text-decoration: none;
-	font-size: 15px;
-	font-weight: normal;
-	line-height: 1;
+	font-weight: 550;
+  font-size: 11pt;
+	line-height: 1em;
+  letter-spacing: 0.03em;
 }
 
 /* General Content Section CSS */
 #content-section {
-  font-family: 'Public Sans', sans-serif;
 	margin-left: 275px;  /* Same as the width of the sidebar */
 	width: 60%;
   padding-top: 50px;
+
 }
 
 #content-section a {
@@ -82,6 +88,11 @@
 #content-section a:hover{
 	color: #C0C0C0;
 	text-decoration: none;
+}
+
+#content-section p {
+  letter-spacing: 0.03em;
+  line-height: 1.4em;
 }
 
 #content-section img {
@@ -144,9 +155,9 @@
 }
 
 .single-text-div p {
-	margin-bottom: 0rem;
-  font-weight: normal;
-  font-size: 15px;
+	margin-bottom: 0em;
+  font-weight: 400;
+  font-size: 11pt;
 }
 
 .single-title-div {
@@ -157,8 +168,7 @@
 
 .single-title-div p {
 	font-weight: 700;
-	font-size: 15px;
-	margin-bottom: 0;
+	font-size: 16pt;
 }
 
 /* Single Gallery Section CSS */
@@ -211,11 +221,6 @@
 
 .views-row-div{
   display:flex;
-}
-
-/* Texts Page CSS */
-#contact-div a {
-  font-size: 20px;
 }
 
 /* Responsiveness of the Content menu/section */
