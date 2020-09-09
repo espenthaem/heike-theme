@@ -1,6 +1,6 @@
 <div id="content-menu">
 	
-	<div id="heike-head"><a href="<?php get_site_url();?>">HEIKE<br> BARANOWSKY</a></div>
+	<div id="heike-head"><a href="<?php echo get_site_url();?>">HEIKE<br> BARANOWSKY</a></div>
 
 	<ul>
 		<li class="main-nav" id="main-news">
