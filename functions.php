@@ -16,6 +16,14 @@ function load_css()
 }
 add_action('wp_enqueue_scripts', 'load_css');
 
+// Load specific Style Sheet
+function wpse_enqueue_page_template_styles() {
+    if ( is_page_template( 'template-texts.php' ) ) {
+        wp_enqueue_style( 'template-texts', get_stylesheet_directory_uri() . '/css/texts.css' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'wpse_enqueue_page_template_styles' );
+
 // Load Javascript
 function load_js()
 {
