@@ -14,6 +14,4 @@ Template Name: Exhibition Views
 	
 </div>
 
-</div></div>
-
 <?php get_footer();?>

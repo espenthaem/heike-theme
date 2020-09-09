@@ -68,7 +68,6 @@ if ($the_query->have_posts()) {
 				for (i=0; i<title_divs.length; ++i) {
 					title_divs[i].setAttribute("style", "height:" + max_div_height + "px")
 				}
-				
 			</script>
 
 

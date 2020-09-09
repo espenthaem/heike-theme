@@ -14,6 +14,4 @@ Template Name: Texts
 	
 </div>
 
-</div></div>
-
 <?php get_footer();?>

@@ -53,6 +53,4 @@ Template Name: News
 	
 </div>
 
-</div></div>
-
 <?php get_footer();?>

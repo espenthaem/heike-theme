@@ -9,7 +9,7 @@ Template Name: Works
 <?php get_template_part('includes/section','sidebarnav');?>
 
 <div id="content-section">
-	
+
 	<?php
 	    $args = array(
 	        'post_type' => 'post',
@@ -46,9 +46,9 @@ Template Name: Works
 	        }
 	?>
 	<?php wp_reset_query() ?>
+
+	
 	
 </div>
-
-</div></div>
 
 <?php get_footer();?>

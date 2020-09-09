@@ -58,11 +58,12 @@ body {
 .main-nav a {
   text-decoration: none;
   display: block;
-  text-decoration: underline;
 }
 
-.sub-nav ul {
-    list-style-type: none;
+.sub-nav {
+  list-style-type: none;
+  display: none;
+  margin-left: 5px;
 }
 
 .sub-nav a {
@@ -263,4 +264,3 @@ body {
 .loadmore:hover{
   opacity: 0.5
 }
-

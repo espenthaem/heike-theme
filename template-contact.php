@@ -22,6 +22,4 @@ Template Name: Contact
 
 </div>
 
-</div></div>
-
 <?php get_footer();?>

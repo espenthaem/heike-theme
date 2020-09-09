@@ -80,6 +80,22 @@ function get_excerpt($limit, $source = null){
     return $excerpt;
 }
 
+/* Add nav styling */
+function load_nav_script() {
+ 
+    global $post; 
+ 
+    // register our main script but do not enqueue it yet
+    wp_register_script( 'highlight_nav', get_template_directory_uri() . '/js/highlight_nav.js', array('jquery') );
+ 
+    wp_localize_script( 'highlight_nav', 'highlight_params', array(
+        'post_slug' => $post->post_name
+    ) );
+
+    wp_enqueue_script('highlight_nav');
+}
+add_action( 'wp_enqueue_scripts', 'load_nav_script' );
+
 /* Add infinite scrolling functionality for news page*/
 function load_more_scripts() {
  
@@ -124,8 +140,6 @@ function loadmore_ajax_handler(){
     endif;
     die; // here we exit the script and even no wp_reset_query() required!
 }
- 
- 
  
 add_action('wp_ajax_loadmore', 'loadmore_ajax_handler'); // wp_ajax_{action}
 add_action('wp_ajax_nopriv_loadmore', 'loadmore_ajax_handler'); // wp_ajax_nopriv_{action}
