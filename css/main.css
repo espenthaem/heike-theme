@@ -136,8 +136,6 @@
 }
 
 .single-text-div {
-	border-left-style: solid;
-	border-right-style: solid;
 	border-width: 1px;
 	padding-bottom: 20px;
 	padding-left: 20px;
@@ -153,6 +151,7 @@
 
 .single-title-div {
 	padding-left: 20px;
+  padding-right: 20px;
 	vertical-align: middle;
 }
 
