@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Texts
+Template Name: Biography
 */
 ?>
 
@@ -9,7 +9,7 @@ Template Name: Texts
 <?php get_template_part('includes/section','sidebarnav');?>
 
 <div id="content-section">
-	<div id="texts-div">
+	<div id="biography-div">
 		<?php the_content();?>
 	</div>	
 </div>

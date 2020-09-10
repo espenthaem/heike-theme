@@ -4,7 +4,7 @@
 		<p><?php the_title();?></p>
 	</div>
 
-	<div class="single-text-div">
+	<div class="single-text-div single-text-div-news">
 		<p><?php the_content();?></p> 
 	</div>
 

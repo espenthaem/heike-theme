@@ -124,6 +124,10 @@ body {
     opacity: 0.75;
 }
 
+#biography-div {
+  width: 75%;
+}
+
 /* Single Content Section CSS */
 .single-image-div img {
   display: block;
@@ -159,6 +163,10 @@ body {
 	padding-left: 20px;
 	padding-top: 20px;
   padding-right: 20px;
+}
+
+.single-text-div-news {
+  width: 75%;
 }
 
 .single-text-div p {
