@@ -78,7 +78,7 @@ body {
 #content-section {
 	margin-left: 275px;  /* Same as the width of the sidebar */
 	width: 65%;
-  padding-top: 100px;
+  padding-top: 120px;
   padding-left: 25px;
 }
 
@@ -170,12 +170,12 @@ body {
 
 .single-title-div p {
 	font-weight: 700;
-	font-size: 16pt;
+	font-size: 11pt;
 }
 
 /* Single Gallery Section CSS */
 
-/* Next & previous buttons */
+/* Next & previous buttons DEPRECATED*/
 .prev .next {
   cursor: pointer;
   position: absolute;
