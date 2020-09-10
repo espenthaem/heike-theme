@@ -8,7 +8,7 @@
 		<p><?php the_content();?></p> 
 	</div>
 
-	<div>
+	<div class="single-image-div-news">
 		<img src="<?php the_post_thumbnail_url('full');?>">
 	</div>	
 

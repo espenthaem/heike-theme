@@ -131,6 +131,11 @@ body {
   padding-top: 20px;
 }
 
+.single-image-div-news {
+  width: 40%;
+  padding-left: 20px;
+}
+
 .single-video-div {
   position: relative;
   padding:56.25% 0 0 0;
