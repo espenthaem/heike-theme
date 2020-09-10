@@ -5,7 +5,7 @@
 			<img src="<?php the_post_thumbnail_url('full');?>">
 		</div>
 
-	<div style="width: 75%; padding-left: 50px;">
+	<div class="single-news-text-container">
 
 		<div class="single-title-div">
 			<p><?php the_title();?></p>
