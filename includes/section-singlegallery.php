@@ -1,4 +1,4 @@
-<div class="single-gallery-div">
+<div id="single-gallery-div">
 
 	<?php if(get_post_meta(get_the_ID(), 'vimeo-link', false ) ) { ?>
 		<div class="single-video-div">

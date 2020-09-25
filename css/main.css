@@ -197,6 +197,9 @@ body {
 }
 
 /* Single Gallery Section CSS */
+#single-gallery-div img{
+  padding-bottom: 20px;
+}
 
 /* Next & previous buttons DEPRECATED*/
 .prev .next {
