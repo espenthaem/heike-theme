@@ -89,7 +89,9 @@ function load_nav_script() {
     wp_register_script( 'highlight_nav', get_template_directory_uri() . '/js/highlight_nav.js', array('jquery') );
  
     wp_localize_script( 'highlight_nav', 'highlight_params', array(
-        'post_slug' => $post->post_name
+        'post_slug' => $post->post_name,
+        'post_type' => $post->post_type,
+        'categories' => get_the_category($post->ID)
     ) );
 
     wp_enqueue_script('highlight_nav');

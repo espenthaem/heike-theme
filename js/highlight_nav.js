@@ -1,5 +1,18 @@
 jQuery(function highlight_nav($) {
-	var post_slug = highlight_params.post_slug
+	/* Function to change the display type of the appropriate sub-nav menu
+		based on either the slug of the page, or the post category
+	*/
+	if (highlight_params.post_type == 'page') {
+		var post_slug = highlight_params.post_slug
+	}
+	else if (highlight_params.post_type == 'post'){
+		var post_slug = highlight_params.categories[0].slug
+		// Catch category and page naming discrepancy
+		if (post_slug == "work") {
+			post_slug = "works"
+		}
+	}
+
 	var firstA = document.querySelector("#main-" + post_slug + " > a:first-of-type");
 	firstA.setAttribute("style", "text-decoration: underline");
 
@@ -7,4 +20,5 @@ jQuery(function highlight_nav($) {
 	if (sub_nav !== null) {
 		sub_nav.setAttribute("style", "display : block");
 	}
+
 });
