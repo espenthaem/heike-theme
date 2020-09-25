@@ -290,3 +290,14 @@ body {
 .loadmore:hover{
   opacity: 0.5
 }
+
+/* disable scroll bars class */
+.disable-scrollbars::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}

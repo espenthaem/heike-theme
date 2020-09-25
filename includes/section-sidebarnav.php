@@ -1,4 +1,4 @@
-<div id="content-menu">
+<div id="content-menu" class="disable-scrollbars">
 	
 	<div id="heike-head"><a href="<?php echo get_site_url();?>">HEIKE<br> BARANOWSKY</a></div>
 
