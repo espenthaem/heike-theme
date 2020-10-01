@@ -91,6 +91,7 @@ function load_nav_script() {
     wp_localize_script( 'highlight_nav', 'highlight_params', array(
         'post_slug' => $post->post_name,
         'post_type' => $post->post_type,
+        'post_link' => get_permalink($post->ID),
         'categories' => get_the_category($post->ID)
     ) );
 

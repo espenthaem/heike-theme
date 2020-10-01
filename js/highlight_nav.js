@@ -11,6 +11,13 @@ jQuery(function highlight_nav($) {
 		if (post_slug == "work") {
 			post_slug = "works"
 		}
+		
+		// Style corresponding sub-nav link
+		var sub_nav_link = document.querySelectorAll("a[href^='" + highlight_params.post_link + "']");
+		if (sub_nav_link !== null) {
+			sub_nav_link[0].setAttribute("style", "color: #C0C0C0;");
+		}
+
 	}
 
 	var firstA = document.querySelector("#main-" + post_slug + " > a:first-of-type");
