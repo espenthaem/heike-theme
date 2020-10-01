@@ -7,7 +7,7 @@ body {
 
 #content-menu {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 250px; /* Set the width of the sidebar */
+  width: 300px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -69,14 +69,14 @@ body {
 .sub-nav a {
 	text-decoration: none;
 	font-weight: 550;
-  font-size: 11pt;
+  font-size: 9pt;
 	line-height: 1em;
   letter-spacing: 0.03em;
 }
 
 /* General Content Section CSS */
 #content-section {
-	margin-left: 250px;  /* Same as the width of the sidebar */
+	margin-left: 300px;  /* Same as the width of the sidebar */
 	width: 65%;
   padding-top: 120px;
   padding-left: 25px;
