@@ -239,6 +239,10 @@ body {
     padding: 5px 5px 2px 0px;
   }
 
+  #heike-head {
+    font-size: 29pt;
+  }
+
   .sub-nav a {
     font-size: 20pt;
   }
@@ -264,6 +268,11 @@ body {
 
   .tablepress-id-1 tbody td {
     font-size: 22pt !important;
+  }
+
+  .tablepress thead th,
+  .tablepress tfoot th {
+    font-size: 22pt;
   }
 
   #biography-div p {
