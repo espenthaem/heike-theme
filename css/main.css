@@ -201,32 +201,6 @@ body {
   padding-bottom: 20px;
 }
 
-/* Next & previous buttons DEPRECATED*/
-.prev .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-	float: right;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
 .gallery-nav-div {
 	display: flex;
 }
@@ -255,16 +229,45 @@ body {
 @media screen and (max-width: 1000px) {
   #content-menu {
     width: 90%; 
-    padding-right: 5px;
+    padding-left: 5%;
     height: auto;
     position: relative;
+    font-size: 20pt;
+  }
+
+  #content-menu a {
+    padding: 5px 5px 2px 0px;
+  }
+
+  .sub-nav a {
+    font-size: 18pt;
   }
 
   #content-section {
-    width: 90%;
+    width: 100%;
     margin-left: 0px;
     padding-left: 5%;
-    padding-right: 5px;
+    padding-right: 5%;
+  }
+
+  .single-text-div p {
+    font-size: 20pt;
+  }
+
+  .single-title-div p {
+    font-size: 20pt;
+  }
+
+  .views-single-div a {
+    font-size: 20pt;
+  }
+
+  .tablepress-id-1 tbody td {
+    font-size: 20pt !important;
+  }
+
+  #biography-div p {
+    font-size: 20pt;
   }
 
 }
