@@ -193,7 +193,8 @@ body {
 
 .single-news-text-container {
   width: 80%; 
-  padding-left: 50px;"
+  padding-left: 50px;
+  word-break: break-word;
 }
 
 /* Single Gallery Section CSS */
@@ -284,7 +285,11 @@ body {
   }
 
   #texts-div {
-    overflow-x: clip;
+    overflow-x: scroll;
+  }
+
+  .loadmore {
+    font-size: 22pt;
   }
 
 }
@@ -306,7 +311,8 @@ body {
   cursor:pointer;
   padding: 10px 10px 10px 10px;
   transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;  
-}
+  margin-bottom: 100px;
+} 
 .loadmore:hover{
   opacity: 0.5
 }
