@@ -254,6 +254,10 @@ body {
     padding-right: 5%;
   }
 
+  #content-section p {
+    font-size: 22pt; 
+  }
+
   .single-text-div p {
     font-size: 22pt;
   }
@@ -266,17 +270,21 @@ body {
     font-size: 22pt;
   }
 
-  .tablepress-id-1 tbody td {
+  .tablepress tbody td {
     font-size: 22pt !important;
   }
 
   .tablepress thead th,
   .tablepress tfoot th {
-    font-size: 22pt;
+    font-size: 22pt !important;
   }
 
   #biography-div p {
     font-size: 22pt;
+  }
+
+  #text-div {
+    overflow-x: clip;
   }
 
 }
