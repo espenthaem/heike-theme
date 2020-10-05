@@ -232,7 +232,7 @@ body {
     padding-left: 5%;
     height: auto;
     position: relative;
-    font-size: 20pt;
+    font-size: 22pt;
   }
 
   #content-menu a {
@@ -240,7 +240,7 @@ body {
   }
 
   .sub-nav a {
-    font-size: 18pt;
+    font-size: 20pt;
   }
 
   #content-section {
@@ -251,23 +251,23 @@ body {
   }
 
   .single-text-div p {
-    font-size: 20pt;
+    font-size: 22pt;
   }
 
   .single-title-div p {
-    font-size: 20pt;
+    font-size: 22pt;
   }
 
   .views-single-div a {
-    font-size: 20pt;
+    font-size: 22pt;
   }
 
   .tablepress-id-1 tbody td {
-    font-size: 20pt !important;
+    font-size: 22pt !important;
   }
 
   #biography-div p {
-    font-size: 20pt;
+    font-size: 22pt;
   }
 
 }
