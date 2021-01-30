@@ -147,6 +147,7 @@ body {
 
 .single-video-div iframe {
   position:absolute;
+  border-width: 0px;
   top:0;
   left:0;
   width:100%;
@@ -265,6 +266,10 @@ body {
 
   .single-title-div p {
     font-size: 22pt;
+  }
+
+  .single-title-div {
+    height: auto;
   }
 
   .views-single-div a {
