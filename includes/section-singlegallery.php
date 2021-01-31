@@ -2,7 +2,9 @@
 
 	<?php if(get_post_meta(get_the_ID(), 'vimeo-link', false ) ) { ?>
 		<div class="single-video-div">
-			<iframe src="<?php echo get_post_meta(get_the_ID(), 'vimeo-link', true);?>?title=0&byline=0&portrait=0"> </iframe>
+			<iframe class="gallery-iframe" src="<?php echo get_post_meta(get_the_ID(), 'vimeo-link', true);?>?title=0&byline=0&portrait=0"> </iframe>
+		</div>
+		<div style="padding-top: 20px">
 		</div>
 	<?php } ?>
 
